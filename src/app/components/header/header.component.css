@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.header .logo {
+  max-height: 4rem;
+}
+
+.title-group {
+  padding-left: 2rem;
+}
+
+.title-group a {
+  padding-left: 5rem;
+}
+
+
+
+
+

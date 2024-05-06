@@ -1,0 +1,17 @@
+<div class="container">
+  <button
+    [ngClass]="{
+      'btn-primary': type === 'primary',
+      'btn-secondary': type === 'secondary',
+      'btn-tertiary': type === 'tertiary',
+      'btn-danger': type === 'danger',
+      'btn-secondary-danger': type === 'secondary-danger',
+      'btn-sm': size === 'small',
+      'btn-lg': size === 'large'
+    }"
+    [disabled]="disabled"
+    (click)="onClick()"
+  >
+    <ng-content></ng-content>
+  </button>
+</div>

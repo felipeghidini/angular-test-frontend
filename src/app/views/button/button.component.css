@@ -1,0 +1,221 @@
+.container {
+  display: flex;
+  gap: 1rem;
+  padding-bottom: 2rem;
+}
+
+.btn-primary {
+  background-color: blue;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+  letter-spacing: auto;
+  min-height: 3.5em;
+  min-width: 6rem;
+  border-color: transparent;
+  transition: 100ms;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #3F51B5;
+}
+
+.btn-primary:focus {
+  opacity: 60%;
+  border: solid 2px white;
+  outline-style: solid;
+  outline-width: 3px;
+  outline-color: black;
+}
+
+.btn-primary:active {
+  opacity: 100%;
+  background-color: midnightblue;
+  border: solid 2px white;
+  outline-style: solid;
+  outline-width: 2px;
+  outline-color: black;
+}
+
+.btn-primary:disabled {
+  background: rgb(225, 221, 221);
+  opacity: 0,5;
+  cursor: not-allowed;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: #3F51B5;
+  font-weight: bold;
+  border-radius: 5px;
+  letter-spacing: auto;
+  min-height: 3.5em;
+  min-width: 6rem;
+  border-color: transparent;
+  border: 2px solid #3F51B5;
+  transition: 100ms;
+  cursor: pointer;
+}
+
+.btn-secondary:hover {
+  color: black;
+  border: 2px solid black;
+  background-color: rgb(190, 187, 214);
+}
+
+.btn-secondary:focus {
+  border: solid 2px #3F51B5;
+  outline-style: solid;
+  outline-width: 2px;
+  outline-color: black;
+}
+
+.btn-secondary:active {
+  opacity: 100%;
+  color: black;
+  background-color: rgb(190, 187, 214);
+  border-color: black;
+  border: solid 2px white;
+  outline-style: solid;
+  outline-width: 2px;
+  outline-color: black;
+}
+
+.btn-secondary:disabled {
+  background-color: transparent;
+  color: gray;
+  border: 2px solid gray;
+  opacity: 30%;
+  cursor: not-allowed;
+}
+
+.btn-tertiary {
+  color: #3F51B5;
+  background-color: transparent;
+  font-weight: bold;
+  letter-spacing: auto;
+  min-height: 3.5em;
+  min-width: 6rem;
+  border-color: transparent;
+  transition: 100ms;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-tertiary:hover {
+  color: black;
+  border: 1px solid black;
+  background-color: rgb(190, 187, 214);
+}
+
+.btn-tertiary:focus {
+  color: #3F51B5;
+  border: solid 2px black;
+}
+
+.btn-tertiary:active {
+  opacity: 100%;
+  color: black;
+  background-color: rgb(190, 187, 214);
+  border-color: black;
+  border: solid 2px white;
+  outline-style: solid;
+  outline-width: 2px;
+  outline-color: black;
+}
+
+.btn-tertiary:disabled {
+  background-color: transparent;
+  color: gray;
+  opacity: 30%;
+  cursor: not-allowed;
+}
+
+.btn-danger {
+  color: white;
+  background-color: rgb(175, 15, 15);
+  font-weight: bold;
+  letter-spacing: auto;
+  min-height: 3.5em;
+  min-width: 6rem;
+  border-color: transparent;
+  transition: 100ms;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-danger:hover {
+  background-color: rgb(82, 5, 5);
+}
+
+.btn-danger:focus {
+  border: solid 1px white;
+  outline-style: solid;
+  outline-width: 2px;
+  outline-color: black;
+}
+
+.btn-danger:active {
+  opacity: 100%;
+  background-color: rgb(82, 5, 5);
+  border-color: black;
+  border: solid 2px white;
+  outline-style: solid;
+  outline-width: 2px;
+  outline-color: black;
+}
+
+.btn-danger:disabled {
+  background: rgb(225, 221, 221);
+  opacity: 0,5;
+  cursor: not-allowed;
+}
+
+.btn-secondary-danger {
+  color:rgb(175, 15, 15);
+  background-color: transparent;
+  font-weight: bold;
+  letter-spacing: auto;
+  min-height: 3.5em;
+  min-width: 6rem;
+  border-color: transparent;
+  border: 2px solid rgb(175, 15, 15);
+  transition: 100ms;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-secondary-danger:hover {
+  background-color: indianred;
+  color: black;
+  border: 2px solid black;
+}
+
+.btn-secondary-danger:focus {
+  background-color: transparent;
+  border-color: black;
+  border: solid 2px rgb(175, 15, 15);
+  outline-style: solid;
+  outline-width: 2px;
+  outline-color: black;
+}
+
+.btn-secondary-danger:active {
+  opacity: 100%;
+  color: black;
+  background-color: indianred;
+  border-color: black;
+  border: solid 2px white;
+  outline-style: solid;
+  outline-width: 2px;
+  outline-color: black;
+}
+
+.btn-secondary-danger:disabled {
+  background-color: transparent;
+  color: gray;
+  border: 2px solid gray;
+  opacity: 30%;
+  cursor: not-allowed;
+}

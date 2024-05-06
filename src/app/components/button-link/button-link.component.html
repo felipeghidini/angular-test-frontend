@@ -1,0 +1,36 @@
+<app-button
+  type="primary"
+  [disabled]="isButtonDisabled"
+  size="medium"
+  (clicked)="onButtonClick()"
+  >Primary
+</app-button>
+<app-button
+  type="secondary"
+  [disabled]="isButtonDisabled"
+  size="medium"
+  (clicked)="onButtonClick()"
+  >Secondary
+</app-button>
+<app-button
+  type="tertiary"
+  [disabled]="isButtonDisabled"
+  size="medium"
+  (clicked)="onButtonClick()"
+  >Tertiary
+</app-button>
+<app-button
+  type="danger"
+  [disabled]="isButtonDisabled"
+  size="medium"
+  (clicked)="onButtonClick()"
+  >Danger
+</app-button>
+<app-button
+  type="secondary-danger"
+  [disabled]="isButtonDisabled"
+  size="medium"
+  (clicked)="onButtonClick()"
+  >Danger
+</app-button>
+<button (click)="toggleButton()">Toggle Botão</button>
