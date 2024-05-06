@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrl: './select-link.component.css'
 })
 export class SelectLinkComponent {
+  selectedItem: string = '';
+  isButtonDisabled: boolean = false;
 
+
+  toggleButton(): void {
+    this.isButtonDisabled = !this.isButtonDisabled;
+  }
 }

@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  gap: 1rem;
+  padding-bottom: 2rem;
+}
+
+.select-items {
+  min-height: 2.75em;
+  min-width: 15rem;
+  padding: 0.7em 0.5em;
+  background-color: rgb(246, 243, 243);
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+}
+
+.select-items:focus {
+  border-color: black;
+
+  border: solid 1px white;
+  outline-style: solid;
+  outline-width: 2px;
+  outline-color: black;
+}
+
+.select-items:disabled {
+  background: rgb(225, 221, 221);
+  opacity: 0,5;
+  cursor: not-allowed;
+}
+

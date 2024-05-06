@@ -1,1 +1,6 @@
-<p>select-link works!</p>
+<app-select
+  [items]="[{value: 'value1', label: 'Option 1'}, {value: 'value2', label: 'Option 2'}, {value: 'value3', label: 'Option 3'}]"
+  [disabled]="isButtonDisabled"
+  [(selectedItem)]="selectedItem">
+</app-select>
+<button (click)="toggleButton()">Toggle Button</button>

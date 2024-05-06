@@ -1,1 +1,13 @@
-<p>select works!</p>
+<div class="container">
+  <select
+    class="select-items"
+    [disabled]="disabled"
+    (change)="onChange($event)"
+    [(ngModel)]="selectedItem"
+  >
+    <option class="text-label" value="" selected disabled>Select option</option>
+    <option *ngFor="let item of items" [value]="item.value">
+      {{ item.label }}
+    </option>
+  </select>
+</div>
